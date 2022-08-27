@@ -306,12 +306,14 @@ section {
   letter-spacing: 0.03em;
   color: var(--light-color);
 
-  margin-bottom: 20px;
+  
 }
 
 .logo-footer-web {
   color: var(--accent-color);
 }
+
+.contact-footer { margin-top: 20px;}
 
 .contact-adress-footer {
   font-style: normal;
@@ -385,6 +387,7 @@ section {
 .portfolio-box {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio-title {
   font-weight: 700;
@@ -392,6 +395,7 @@ section {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-color);
+  margin-bottom: 4px;
 }
 .portfolio-text {
   font-size: 16px;
